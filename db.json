@@ -1,0 +1,73 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Set up project architecture",
+      "description": "Create base folders, route groups, and shared utilities.",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-05-10",
+      "createdAt": "2026-05-01T09:00:00.000Z",
+      "updatedAt": "2026-05-03T09:00:00.000Z",
+      "tags": [
+        "setup",
+        "architecture"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Build task CRUD UI",
+      "description": "Implement create, edit, delete flows with validations.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-05-11",
+      "createdAt": "2026-05-02T10:30:00.000Z",
+      "updatedAt": "2026-05-04T11:00:00.000Z",
+      "tags": [
+        "crud",
+        "ui"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Add dashboard metrics",
+      "description": "Show completion ratio and overdue tasks.",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-13",
+      "createdAt": "2026-05-03T12:00:00.000Z",
+      "updatedAt": "2026-05-03T12:00:00.000Z",
+      "tags": [
+        "analytics"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Implement middleware demo",
+      "description": "Protect create/edit routes using cookie-based check.",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-05-15",
+      "createdAt": "2026-05-04T08:00:00.000Z",
+      "updatedAt": "2026-05-04T08:00:00.000Z",
+      "tags": [
+        "middleware",
+        "security"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Write documentation",
+      "description": "Explain SSR, SSG, and ISR pages in README.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-05-20",
+      "createdAt": "2026-05-05T14:20:00.000Z",
+      "updatedAt": "2026-05-05T14:20:00.000Z",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
